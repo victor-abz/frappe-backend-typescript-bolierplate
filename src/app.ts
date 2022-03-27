@@ -1,5 +1,5 @@
 import server from 'frappe-backend/server';
-import { testMid } from './middleware/sample.middleware';
+// import { testMid } from './middleware/sample.middleware';
 import models from './models'; // Import Models created by CLI
 import routes from './routes'; // Import Custom Routes
 
@@ -15,5 +15,5 @@ server.start({
 	enableCORS: true,
 	models, // this will contain your database models
 	routes,
-	middlewareList: [testMid(124), testMid(5)],
+	// middlewareList: [testMid(124), testMid(5)],
 });

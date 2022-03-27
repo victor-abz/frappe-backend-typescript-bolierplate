@@ -1,6 +1,9 @@
+import ToDo from './ToDoDocument';
+
 export default {
 	name: 'ToDo',
 	label: 'ToDo',
+	documentClass: ToDo,
 	naming: 'name', // {random|autoincrement}
 	isSingle: 0,
 	isChild: 0,
