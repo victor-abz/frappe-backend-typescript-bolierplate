@@ -10,4 +10,11 @@ module.exports = {
 			main: './dist/app.js',
 		},
 	},
+	nodemon: {
+		watch: ['src'],
+		ext: '.ts,.js',
+		ignore: [],
+		exec: 'ts-node',
+		entry: './src/app.ts',
+	},
 };
