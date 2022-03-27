@@ -3,7 +3,6 @@ import { testMid } from './middleware/sample.middleware';
 import models from './models'; // Import Models created by CLI
 import routes from './routes'; // Import Custom Routes
 
-console.log(process.env.PORT);
 server.start({
 	backend: 'pg', // To start a postgres backend.
 	connectionParams: {
